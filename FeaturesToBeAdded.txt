@@ -1,0 +1,25 @@
+these are the features to be added in this repo that are ->
+
+✅ 2. Like Button ❤️
+
+👉 Learn: state change
+
+✅ 3. Search Filter
+
+👉 Filter cards dynamically
+
+✅ 4. Load More Button
+
+👉 Show more articles
+
+✅ 5. Form Validation
+
+👉 Show errors properly
+
+✅ 6. Scroll Animation
+
+👉 Elements appear on scroll
+
+✅ 7. Back to Top Button
+
+👉 Smooth scrolling
