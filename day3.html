@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input id="name" name="name" type="text" required />
+
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="password" >Password:</label>
+      <input id="password" name="password" type="password" required />
+
+      <label for="gender" >Gender:</label>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+
+      <label>Hobbies:</label>
+      <input type="checkbox" name="hobby" value="coding" /> Coding
+      <input type="checkbox" name="hobby" value="music" /> Music
+
+      <label>Country:</label>
+      <select name="country">
+        <option>India</option>
+        <option>USA</option>
+      </select>
+
+      <label>Message:</label>
+      <textarea name="message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
